@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Local Chat App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <h1>Local Chat</h1>
+    <div id="chat-container">
+      <div id="messages"></div>
+      <div id="input-container">
+        <input id="msgInput" placeholder="Type a message..."/>
+        <button id="sendBtn">Send</button>
+        <label for="fileInput" id="fileLabel">Attach File</label>
+        <input type="file" id="fileInput" multiple />
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Socket.IO client from the server -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    height: 100%;
+  }
+  
+  #messages {
+    border: 1px solid #ccc;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  #msgInput {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  #sendBtn {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex: 1;
+}
+
+#messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat bubble styles */
+#messages p {
+  max-width: 80%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+/* Styles for user's messages */
+.my-message {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+}
+
+/* Styles for other users' messages */
+.other-message {
+  align-self: flex-start;
+  background-color: #ffffff;
+}
+
+/* Input container styles */
+#input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background: #ffffff;
+}
+
+#msgInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#sendBtn {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #128c7e;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+}
+
+#fileInput {
+  display: none;
+}
+
+#fileLabel {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #128c7e;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#messages a {
+  color: #0645AD;
+  text-decoration: none;
+}
+
+#messages a:hover {
+  text-decoration: underline;
+}
+
+/* Center the main container */
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make the interface responsive */
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 0 10px;
+  }
+
+  #messages p {
+    max-width: 90%;
+  }
+}
