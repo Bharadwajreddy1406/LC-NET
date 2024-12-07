@@ -122,4 +122,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ### 🎉 Built with simplicity and speed for local communication.  
 **LC-NET: Local Chat on Network for Exchanges and Talks**  
-```
+
