@@ -9,26 +9,32 @@
 <body>
   <!-- Username overlay -->
   <div id="username-overlay">
+    <h1>LC-Net</h1>
     <input id="usernameInput" placeholder="Enter your username..." />
     <button id="enterChatBtn">Enter Chat</button>
   </div>
 
   <!-- Main chat container -->
   <div class="main-container" style="display: none;">
-    <h1>Local Chat</h1>
+    <div id="user-list-container">
+      <h2>Users Online</h2>
+      <ul id="userList">
+        <li>Joshi</li>
+        <!-- ...existing users... -->
+      </ul>
+    </div>
     <div id="chat-container">
-      <div id="messages"></div>
+      <div id="messages">
+        <!-- Example sent message -->
+        <!-- ...existing messages... -->
+      </div>
+      <!-- Input bar at the bottom -->
       <div id="input-container">
-        <input id="msgInput" placeholder="Type a message..."/>
+        <input id="msgInput" placeholder="Type a message..." />
         <button id="sendBtn">Send</button>
         <label for="fileInput" id="fileLabel">Attach File</label>
         <input type="file" id="fileInput" multiple />
       </div>
-    </div>
-    <!-- User list for DMs -->
-    <div id="user-list-container">
-      <h2>Users Online</h2>
-      <ul id="userList"></ul>
     </div>
   </div>
 
