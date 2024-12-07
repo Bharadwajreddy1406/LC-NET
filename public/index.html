@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Local Chat App</title>
+  <title>LC-NET</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="main-container">
-    <h1>Local Chat</h1>
-    <div id="chat-container">
+    <header>
+      <h1>WELCOME TO LC-NET</h1>
+    </header>
+    <main id="chat-container">
       <div id="messages"></div>
       <div id="input-container">
         <input id="msgInput" placeholder="Type a message..."/>
@@ -17,7 +19,10 @@
         <label for="fileInput" id="fileLabel">Attach File</label>
         <input type="file" id="fileInput" multiple />
       </div>
-    </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 LC-NET (Local Chat on Network for Exchanges and Talks)</p>
+    </footer>
   </div>
 
   <!-- Include Socket.IO client from the server -->
