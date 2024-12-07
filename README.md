@@ -1,4 +1,3 @@
-```
 # LC-NET - Local Chat on Network for Exchanges and Talks
 
 **LC-NET** is a simple, lightweight, and real-time chat platform designed to enable seamless communication on a **local network**. Whether you are in a classroom, workspace, or connected via a mobile hotspot, **LC-NET** allows multiple users on the same network to chat, exchange messages, and collaborate instantly.
@@ -37,7 +36,7 @@
    ```bash
    git clone https://github.com/yourusername/LC-NET.git
    cd LC-NET
-   ```
+
 
 2. **Install Dependencies:**
    ```bash
