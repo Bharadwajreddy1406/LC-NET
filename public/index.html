@@ -7,7 +7,14 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="main-container">
+  <!-- Username overlay -->
+  <div id="username-overlay">
+    <input id="usernameInput" placeholder="Enter your username..." />
+    <button id="enterChatBtn">Enter Chat</button>
+  </div>
+
+  <!-- Main chat container -->
+  <div class="main-container" style="display: none;">
     <h1>Local Chat</h1>
     <div id="chat-container">
       <div id="messages"></div>
@@ -17,6 +24,11 @@
         <label for="fileInput" id="fileLabel">Attach File</label>
         <input type="file" id="fileInput" multiple />
       </div>
+    </div>
+    <!-- User list for DMs -->
+    <div id="user-list-container">
+      <h2>Users Online</h2>
+      <ul id="userList"></ul>
     </div>
   </div>
 
