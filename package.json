@@ -11,7 +11,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.4",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^3.1.7",
     "socket.io": "^4.8.1"
   }
